@@ -1,0 +1,5 @@
+.parallax {
+  position: relative;
+  overflow: hidden;
+  will-change: transform;
+}

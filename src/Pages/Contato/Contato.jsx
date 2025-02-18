@@ -42,7 +42,9 @@ const Contato = () => {
       <div className={styles.bg}>
         <img
           src="https://res.cloudinary.com/dj3gku8z9/image/upload/v1739267388/contatos_xkwkyh.png"
-          alt=""
+          alt="banner"
+          width="1408"
+          height="205"
         />
       </div>
       <div className={styles.container}>
@@ -55,7 +57,9 @@ const Contato = () => {
         </div>
         <img
           src="https://res.cloudinary.com/dj3gku8z9/image/upload/v1739267388/mapa_g9ixb2.png"
-          alt=""
+          alt="mapa"
+          width="474"
+          height="463"
         />
       </div>
 
@@ -65,6 +69,8 @@ const Contato = () => {
           <img
             src="https://res.cloudinary.com/dj3gku8z9/image/upload/v1739025088/Line_8_kigkg3.png"
             alt="barra"
+            width="240"
+            height="3"
           />
           <h2>Conheça nossas Filiais</h2>
         </div>
@@ -90,6 +96,8 @@ const Contato = () => {
         <img
           src="https://res.cloudinary.com/dj3gku8z9/image/upload/v1739025088/Line_8_kigkg3.png"
           alt="barra"
+          width="240"
+          height="3"
         />
         <h2>Entre em contato e conheça nossas soluções para sua empresa.</h2>
       </div>
@@ -153,12 +161,14 @@ const Contato = () => {
           <img
             src="https://res.cloudinary.com/dj3gku8z9/image/upload/v1739267388/endereco_wkzby0.png"
             alt="mapa"
+            width="514"
+            height="328"
           />
           <h1>Nosso endereço</h1>
           <div className={styles.ct}>
             <img
               src="https://res.cloudinary.com/dj3gku8z9/image/upload/v1739379478/localizacao_kjb0ub.svg"
-              alt=""
+              alt="localização"
               width="13"
               height="17"
             />
@@ -171,9 +181,9 @@ const Contato = () => {
           <div className={styles.ct}>
             <img
               src="https://res.cloudinary.com/dj3gku8z9/image/upload/v1739379478/telefone_idmb3c.svg"
-              alt=""
+              alt="telefone"
               width="13"
-              height="17"
+              height="13"
             />
             <span> 55 41 3303 7492 | 55 41 3303 7463</span>
           </div>
@@ -182,7 +192,7 @@ const Contato = () => {
               src="https://res.cloudinary.com/dj3gku8z9/image/upload/v1739379478/email_kse1iw.svg"
               alt=""
               width="13"
-              height="17"
+              height="9"
             />
             <span> fale.conosco@apk.com.br</span>
           </div>

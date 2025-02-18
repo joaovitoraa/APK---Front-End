@@ -9,6 +9,7 @@ const Body = () => {
       <div className={styles.ct}>
         <img src="https://res.cloudinary.com/dj3gku8z9/image/upload/v1738259369/bg-xp_uamiuw.png" />
       </div>
+
       <div className={styles.painel_1}>
         <img
           src="https://res.cloudinary.com/dj3gku8z9/image/upload/v1738259369/bg-seguranca_mh2ngx.png"

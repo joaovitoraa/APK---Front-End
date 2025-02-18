@@ -20,7 +20,9 @@ const Institucional = () => {
         <div>
           <img
             src="https://res.cloudinary.com/dj3gku8z9/image/upload/v1739020684/background_llj68e.png"
-            alt="bg-01"
+            alt="bg 01"
+            width="550"
+            height="321"
           />
         </div>
       </div>
@@ -33,19 +35,25 @@ const Institucional = () => {
         </h2>
         <img
           src="https://res.cloudinary.com/dj3gku8z9/image/upload/v1739025088/Line_8_kigkg3.png"
-          alt=""
+          alt="barra"
+          width="240"
+          height="3"
         />
         <img
           src="https://res.cloudinary.com/dj3gku8z9/image/upload/v1739021167/apk_phyaib.png"
           alt="apk"
+          width="769"
+          height="174"
         />
       </div>
       <div className={styles.bg}>
         <div className={styles.container3}>
-          <div>
+          <div className={styles.selo}>
             <img
               src="https://res.cloudinary.com/dj3gku8z9/image/upload/v1739021168/seal-100-quality_1_odttmu.png"
               alt="Quality"
+              width="1176"
+              height="1176"
             />
           </div>
           <div>
@@ -68,7 +76,9 @@ const Institucional = () => {
             </p>
             <img
               src="https://res.cloudinary.com/dj3gku8z9/image/upload/v1739025088/Line_8_kigkg3.png"
-              alt=""
+              alt="barra"
+              width="240"
+              height="3"
             />
           </div>
         </div>
@@ -77,11 +87,15 @@ const Institucional = () => {
         <h1>Objetivos APK</h1>
         <img
           src="https://res.cloudinary.com/dj3gku8z9/image/upload/v1739025088/Line_8_kigkg3.png"
-          alt=""
+          alt="barra"
+          width="240"
+          height="3"
         />
         <img
           src="https://res.cloudinary.com/dj3gku8z9/image/upload/v1739021392/Group_422_drqv3s.png"
           alt="objetivos apk"
+          width="784"
+          height="298"
         />
       </div>
       <div className={styles.ct_bg5}>
@@ -90,7 +104,9 @@ const Institucional = () => {
             <h1>Valores</h1>
             <img
               src="https://res.cloudinary.com/dj3gku8z9/image/upload/v1739025088/Line_8_kigkg3.png"
-              alt=""
+              alt="barra"
+              width="240"
+              height="3"
             />
             <p>
               Segurança em Primeiro Lugar Senso de Dono Excelência no
@@ -102,7 +118,9 @@ const Institucional = () => {
             <h1>Missão</h1>
             <img
               src="https://res.cloudinary.com/dj3gku8z9/image/upload/v1739025088/Line_8_kigkg3.png"
-              alt=""
+              alt="barra"
+              width="240"
+              height="3"
             />
             <p>
               Ser o maior e melhor na cadeia de fornecimento logístico e na
@@ -114,7 +132,9 @@ const Institucional = () => {
             <h1>Visão</h1>
             <img
               src="https://res.cloudinary.com/dj3gku8z9/image/upload/v1739025088/Line_8_kigkg3.png"
-              alt=""
+              alt="barra"
+              width="240"
+              height="3"
             />
             <p>
               Agregar valor aos nossos produtos e serviços, visando sempre
@@ -136,6 +156,8 @@ const Institucional = () => {
           <img
             src="https://res.cloudinary.com/dj3gku8z9/image/upload/v1738755802/bg-transporte-red_bnv7p3.png"
             alt="Transporte nacional"
+            width="547"
+            height="319"
           />
         </div>
       </div>

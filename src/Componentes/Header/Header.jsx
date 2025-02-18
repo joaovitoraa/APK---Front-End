@@ -13,6 +13,8 @@ const Header = () => {
             <img
               src="https://res.cloudinary.com/dj3gku8z9/image/upload/v1738259369/logo_mgrhzc.png"
               alt="logo"
+              width="215"
+              height="71"
             />
           </Link>
         </div>
@@ -20,17 +22,23 @@ const Header = () => {
           <img
             src="https://res.cloudinary.com/dj3gku8z9/image/upload/v1738259368/instagram_qz0ncw.png"
             alt="instagram"
+            width="26"
+            height="26"
           />
           <img
             src="https://res.cloudinary.com/dj3gku8z9/image/upload/v1738259368/linkedln_xrxsf5.png"
             alt="linkedln"
+            width="26"
+            height="26"
           />
         </div>
       </header>
       <button className={styles.menu} onClick={() => setMenuOpen(!menuOpen)}>
         <img
           src="https://res.cloudinary.com/dj3gku8z9/image/upload/v1739628963/menu_wz0n34.png"
-          alt=""
+          alt="navbar"
+          width="512"
+          height="512"
         />
       </button>
       <nav className={`${styles.container} ${menuOpen ? styles.open : ''}`}>

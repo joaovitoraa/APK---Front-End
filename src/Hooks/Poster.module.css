@@ -1,5 +1,4 @@
 /* blog poster */
-
 .ct_blog {
   display: flex;
   flex-direction: column;
@@ -10,6 +9,7 @@
   margin-top: 80px;
   font-family: "Montserrat";
   color: #484848;
+
 }
 
 .blog_link {
@@ -20,13 +20,14 @@
   line-height: 50px;
   font-weight: bold;
 }
+
 .poster {
   display: flex;
   justify-content: space-between;
   align-items: flex-start;
   flex-grow: 1;
   margin: 0 auto;
-  padding: 120px;
+  padding: 30px;
   max-width: 960px;
 }
 

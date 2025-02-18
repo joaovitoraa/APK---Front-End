@@ -31,7 +31,6 @@ const Poster = () => {
             Ir para o Blog APK
           </Link>
         </div>
-
         <div className={styles.poster}>
           {posts.length === 0 ? (
             <p>Carregando...</p>

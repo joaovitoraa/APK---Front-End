@@ -61,14 +61,18 @@ const Cliente = () => {
         <h1>Login / Registro</h1>
         <img
           src="https://res.cloudinary.com/dj3gku8z9/image/upload/v1739463857/Vector_1_k7imsv.png"
-          alt=""
+          alt="barra-titulo"
+          width="69"
+          height="10"
         />
       </div>
       <div className={styles.container1}>
         <div className={styles.container2}>
           <img
             src="https://res.cloudinary.com/dj3gku8z9/image/upload/v1739463812/Vector_3_nzg1q8.png"
-            alt=""
+            alt="barra-titulo-vermelha"
+            width="69"
+            height="6"
           />
           <h1>Entrar</h1>
           <form onSubmit={handleLogin}>
@@ -107,7 +111,9 @@ const Cliente = () => {
         <div className={styles.container4}>
           <img
             src="https://res.cloudinary.com/dj3gku8z9/image/upload/v1739463812/Vector_3_nzg1q8.png"
-            alt=""
+            alt="barra-vermelha"
+            width="69"
+            height="6"
           />
           <h1>
             <span className={styles.spn1}>LOGIN /</span> REGISTRO

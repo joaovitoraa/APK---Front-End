@@ -1,0 +1,128 @@
+.bg img{
+  width: 100%;
+}
+.container{
+  display: flex;
+  max-width: 960px;
+  margin: 0 auto;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  margin-top: 60px;
+}
+.container h1{
+  font-family: "Montserrat";
+  font-size: 32px;
+  color: #000;
+  font-weight: 700;
+  text-align: center;
+  margin-bottom: 10px;
+}
+.container h2{
+  font-family: "Montserrat";
+  font-size: 16px;
+  color: #000;
+  font-weight: 400;
+  text-align: center;
+  margin-top: 10px;
+  color: #4f4f4f;
+  word-wrap: break-word;
+  width: 400px;
+}
+.sp1{
+  font-size: 16px;
+  font-weight: 800;
+  text-align: center;
+  margin-top: 10px;
+  color: #4f4f4f;
+}
+.sp2{
+  font-size: 16px;
+  font-weight: 700;
+  text-align: center;
+  margin-top: 10px;
+  color: #f00d04;
+}
+.img{
+  margin: 30px;
+}
+.container2{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  margin: 0 auto;
+  max-width: 960px;
+  margin-top: 30px;
+}
+
+.container3{
+  display: flex;
+  justify-content: center;
+  margin: 30px;
+}
+
+@media (max-width:768px){
+  .bg img{
+    display: none;
+  }
+  .container{
+    display: flex;
+    max-width:700px;
+    margin: 0 auto;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin-top: 60px;
+  }
+  .container h1{
+    font-family: "Montserrat";
+    font-size: 25px;
+    color: #000;
+    font-weight: 700;
+    text-align: center;
+    margin-bottom: 10px;
+  }
+  .container h2{
+    font-family: "Montserrat";
+    font-size: 16px;
+    color: #000;
+    font-weight: 400;
+    text-align: center;
+    margin-top: 10px;
+    color: #4f4f4f;
+    word-wrap: break-word;
+    width: 400px;
+  }
+  .sp1{
+    font-size: 16px;
+    font-weight: 800;
+    text-align: center;
+    margin-top: 10px;
+    color: #4f4f4f;
+  }
+  .sp2{
+    font-size: 16px;
+    font-weight: 700;
+    text-align: center;
+    margin-top: 10px;
+    color: #f00d04;
+  }
+  .img{
+    margin:40px;
+    max-width: 350px;
+  }
+  .container2{
+    display: flex;
+   flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+    max-width: 700px;
+  }
+  
+  .container3{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 30px;
+  }
+}

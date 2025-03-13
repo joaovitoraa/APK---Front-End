@@ -34,12 +34,21 @@ const Header = () => {
         </div>
       </header>
       <button className={styles.menu} onClick={() => setMenuOpen(!menuOpen)}>
-        <img
-          src="https://res.cloudinary.com/dj3gku8z9/image/upload/v1739628963/menu_wz0n34.png"
-          alt="navbar"
-          width="512"
-          height="512"
-        />
+        <svg className="svg" width="50" height="24" viewBox="0 0 24 24">
+          <rect
+            className={`${styles.top} ${menuOpen ? styles.openTop : ''}`}
+            width="50"
+            height="3"
+            fill="red"
+          />
+          <rect
+            className={`${styles.bottom} ${menuOpen ? styles.openBottom : ''}`}
+            width="50"
+            height="3"
+            fill="red"
+            y="8"
+          />
+        </svg>
       </button>
       <nav className={`${styles.container} ${menuOpen ? styles.open : ''}`}>
         <Link className={styles.link} to="/Institucional">
@@ -54,7 +63,7 @@ const Header = () => {
         <Link className={styles.link} to="/frota">
           Frota e equipamentos
         </Link>
-        <Link className={styles.link} to="/">
+        <Link className={styles.link} to="/cliente">
           Clientes
         </Link>
         <Link className={styles.link} to="/Blog">

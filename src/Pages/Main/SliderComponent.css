@@ -1,3 +1,6 @@
+
+
+
 :root {
   --slide-height: 550px;
   --overlay-color: rgba(0, 0, 0, 0.5);
@@ -5,6 +8,7 @@
   --button-bg: #e60000;
   --button-hover-bg: #c40000;
 }
+
 
 .slider-container {
   margin: 0 auto;
@@ -88,7 +92,7 @@
 
   .slider-container {
     margin: 0 auto;
-    max-width: 100%;
+   width: 100vw;
     justify-content: center;
     align-items: center;
     height: var(--slide-height);
@@ -98,7 +102,7 @@
   
   
   .slide {
-    max-width: 100%;
+    width: 100vw;
     position: relative;
     height: var(--slide-height);
     background-size: cover;
@@ -121,10 +125,10 @@
     margin-left: 50px;
     color: var(--text-color);
     display: flex;
-    justify-content: center;
-    align-items: self-start;
+    justify-content: flex-start;
+    align-items: flex-start;
     flex-direction: column;
-    padding: 40px;
+    padding: 0;
   }
   
   .slide-content h2 {
@@ -133,6 +137,7 @@
     font-weight: 100;
     word-wrap: break-word;
     width: 300px;
+   
   
   }
   

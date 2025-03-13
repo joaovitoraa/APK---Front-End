@@ -1,5 +1,5 @@
 .parallax {
   position: relative;
+  min-height: 50vh !important;
   overflow: hidden;
-  will-change: transform;
 }

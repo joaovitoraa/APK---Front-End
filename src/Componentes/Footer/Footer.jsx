@@ -13,29 +13,29 @@ const Footer = () => {
         </div>
         <div className={styles.column}>
           <h1 className={styles.footer}>APK</h1>
-          <Link className={styles.footer} to="/">
+          <Link className={styles.footer} to="/institucional">
             Sobre nós
           </Link>
-          <Link className={styles.footer} to="/">
+          <Link className={styles.footer} to="/solucoes">
             Soluções
           </Link>
-          <Link className={styles.footer} to="/">
+          <Link className={styles.footer} to="/blog">
             Tecnologia
           </Link>
-          <Link className={styles.footer} to="/">
+          <Link className={styles.footer} to="/clientes">
             Clientes
           </Link>
         </div>
 
         <div className={styles.column}>
           <h1 className={styles.footer}>Entre em contato</h1>
-          <Link className={styles.footer} to="/">
+          <Link className={styles.footer} to="/institucional">
             Trabalhe conosco
           </Link>
-          <Link className={styles.footer} to="/">
+          <Link className={styles.footer} to="/contato">
             Fale conosco
           </Link>
-          <Link className={styles.footer} to="/">
+          <Link className={styles.footer} to="/contato">
             Localização
           </Link>
         </div>
